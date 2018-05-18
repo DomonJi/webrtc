@@ -7,7 +7,7 @@ var roomHash = location.hash.substring(1);
 
 // 放置你自己的频道id, 这是我注册了ScaleDrone 官网后，创建的channel
 // 你也可以自己创建
-var drone = new ScaleDrone('87fYv4ncOoa0Cjne');
+var drone = new ScaleDrone('BKHTWxQ1FSFjX2oh');
 // 房间名必须以 'observable-'开头
 var roomName = 'observable-' + roomHash;
 var configuration = {
